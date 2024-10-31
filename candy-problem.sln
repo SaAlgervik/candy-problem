@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "candy-problem", "candy-problem\candy-problem.csproj", "{4AE850A5-3869-4E36-AF85-62A7C695C5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTest", "NTest\NTest.csproj", "{4F0740AC-0FDF-497F-8EEC-3BF5AFA670AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTest", "XTest\XTest.csproj", "{D6ADB984-B6ED-43CB-9DF8-3D36F28B72BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AE850A5-3869-4E36-AF85-62A7C695C5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE850A5-3869-4E36-AF85-62A7C695C5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE850A5-3869-4E36-AF85-62A7C695C5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE850A5-3869-4E36-AF85-62A7C695C5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0740AC-0FDF-497F-8EEC-3BF5AFA670AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0740AC-0FDF-497F-8EEC-3BF5AFA670AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0740AC-0FDF-497F-8EEC-3BF5AFA670AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0740AC-0FDF-497F-8EEC-3BF5AFA670AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ADB984-B6ED-43CB-9DF8-3D36F28B72BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ADB984-B6ED-43CB-9DF8-3D36F28B72BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ADB984-B6ED-43CB-9DF8-3D36F28B72BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ADB984-B6ED-43CB-9DF8-3D36F28B72BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
