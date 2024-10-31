@@ -11,5 +11,16 @@ public class UnitTest1
         Assert.Equal(-1, result);
 
     }
+    
+    [Fact]
+    public void CandyProblem_TwoChildrenWithSameAmount_ReturnZero()
+    {
+        
+        var result = CandyProblem.GetMissingCandies([6, 6]);
+        
+        Assert.Equal(0, result);
 
+    }
+
+    
 }
