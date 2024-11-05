@@ -1,22 +1,23 @@
-﻿namespace candy_problem;
+﻿using System;
+using System.Linq;
 
-public class CandyProblem
+namespace candy_problem;
+
+public abstract class CandyProblem
 {
-    public static object GetMissingCandies(int[] candyAmount)
+    public static object GetMissingCandies(int[] candyAmounts)
     {
-        if (candyAmount.Length <= 1)
+        if (candyAmounts.Length <= 1)
             return -1;
-        
-        var difference = 0;
 
-        var hadMostAmount = candyAmount.Max();
+        var mostCandies = candyAmounts.Max();
 
-        foreach (var amount in candyAmount)
-        {
-            difference += hadMostAmount - amount;
-        }
-        
-        return difference;
+        return candyAmounts.Sum(AmountDifference(mostCandies));
+    }
+
+    private static Func<int, int> AmountDifference(int hadMostAmount)
+    {
+        return amount => hadMostAmount - amount;
     }
 }
     
