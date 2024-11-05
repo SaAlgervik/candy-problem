@@ -6,11 +6,17 @@ public class CandyProblem
     {
         if (candyAmount.Length <= 1)
             return -1;
-
-        if (candyAmount[0] != candyAmount[1])
-            return 1;
         
-        return 0;
+        var difference = 0;
+
+        var hadMostAmount = candyAmount.Max();
+
+        foreach (var amount in candyAmount)
+        {
+            difference += hadMostAmount - amount;
+        }
+        
+        return difference;
     }
 }
     
