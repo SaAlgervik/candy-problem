@@ -1,3 +1,5 @@
+using candy_problem;
+
 namespace XTest;
 
 public class UnitTest1
@@ -32,5 +34,13 @@ public class UnitTest1
         var result = CandyProblem.GetMissingCandies([1, 2]);
 
         Assert.Equal(1, result);
+    }
+    
+    [Fact]
+    public void CandyProblem_ThreeChildren_ReturnsDifference()
+    {
+        var result = CandyProblem.GetMissingCandies([1, 1, 2]);
+
+        Assert.Equal(2, result);
     }
 }

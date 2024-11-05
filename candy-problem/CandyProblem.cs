@@ -1,13 +1,13 @@
-﻿namespace XTest;
+﻿namespace candy_problem;
 
 public class CandyProblem
 {
-    public static object GetMissingCandies(int[] ints)
+    public static object GetMissingCandies(int[] candyAmount)
     {
-        if (ints.Length <= 1)
+        if (candyAmount.Length <= 1)
             return -1;
 
-        if (ints[0] != ints[1])
+        if (candyAmount[0] != candyAmount[1])
             return 1;
         
         return 0;
