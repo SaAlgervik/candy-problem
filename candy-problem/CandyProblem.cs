@@ -6,6 +6,9 @@ public class CandyProblem
     {
         if (ints.Length <= 1)
             return -1;
+
+        if (ints[0] != ints[1])
+            return 1;
         
         return 0;
     }
