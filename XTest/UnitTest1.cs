@@ -29,4 +29,12 @@ public class UnitTest1
         
         Assert.Equal(-1, result);
     }
+    
+    [Fact]
+    public void CandyProblem_TwoChildren_ReturnsDifference()
+    {
+        var result = CandyProblem.GetMissingCandies([1,2]);
+        
+        Assert.Equal(1, result);
+    }
 }
